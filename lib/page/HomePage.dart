@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_study/widget/GSYTabBarWidget.dart';
+import 'package:flutter_study/common/style/GSYColors.dart';
 
 class HomePage extends StatelessWidget{
 
@@ -17,7 +18,7 @@ class HomePage extends StatelessWidget{
             new Icon(Icons.directions_transit),
             new Icon(Icons.directions_bike)
           ],
-          backgroundColor: Colors.deepOrange,
+          backgroundColor: GSYColors.primarySwatch,
           indicatorColor: Colors.white,
           title: "我是廖",
     );
