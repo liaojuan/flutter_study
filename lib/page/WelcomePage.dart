@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_study/page/HomePage.dart';
+import 'package:flutter_study/page/LoginPage.dart';
 
 class WelcomePage extends StatelessWidget{
   
@@ -11,7 +12,7 @@ class WelcomePage extends StatelessWidget{
     new Future.delayed(const Duration(seconds: 2),(){
       Navigator.of(context)
           .pushReplacement(new MaterialPageRoute(builder: (context){
-            return new HomePage();
+            return new LoginPage();
       }));
     });
     return new Container(
